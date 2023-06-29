@@ -23,7 +23,7 @@ class device_handler(debounce_handler):
        and the IP address of the Echo making the request.
     """
     #TRIGGERS = {str(sys.argv[1]): int(sys.argv[2])}
-    TRIGGERS = {"office": 52000}
+    TRIGGERS = {"apple": 52000}
  
     def act(self, client_address, state, name):
         print("State", state, "from client @", client_address)
